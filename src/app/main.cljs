@@ -6,7 +6,7 @@
   (println "App loadeddd!"))
 
 (defn app []
-  [:p (str "Hellloo" "World!")])
+  [:p.example (str "Hellloo" "World!")])
 
 (defn start []
   (js/console.log "Starting...")
